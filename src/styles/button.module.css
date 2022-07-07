@@ -1,0 +1,14 @@
+.btn {
+  outline: none;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  background: #d8ad3d;
+  color: #fff;
+}
+.btn:hover {
+  background: #009cd9;
+}
+.btn:disabled {
+  background: #cfcfcf;
+}
