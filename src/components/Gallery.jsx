@@ -1,8 +1,6 @@
 import Card from "./Card";
-import { useGetArticles } from "../hooks/useGetArticles";
 import styles from "../styles/gallery.module.css";
-const Gallery = () => {
-  const { loading, articles } = useGetArticles();
+const Gallery = ({ articles, loading }) => {
   return (
     <div>
       {loading && <>Cargando</>}

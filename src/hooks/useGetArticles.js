@@ -1,17 +1,18 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { getArticles } from "../services/Articles";
-const useGetArticles = () => {
+const useGetArticles = (toshow) => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    getArticles()
+    setLoading(true);
+    getArticles(toshow)
       .then((articles) => {
         setArticles(articles);
         setLoading(false);
       })
       .catch((err) => console.error(err));
-  }, []);
+  }, [toshow]);
   return { articles, loading };
 };
 export { useGetArticles };

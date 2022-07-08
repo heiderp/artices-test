@@ -1,0 +1,22 @@
+.filter {
+  background-color: #fff;
+  height: 300px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  padding: 30px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.element {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+.element:hover {
+  color: #d8ad3d;
+}
