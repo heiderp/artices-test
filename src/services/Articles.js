@@ -14,9 +14,10 @@ const getArticles = async (toshow) => {
   return response.data;
 };
 
-const postArticles = async () => {
+const postArticles = async (values) => {
   const request = await axios.post(
-    "https://5eed24da4cbc340016330f0d.mockapi.io/api/newsletter"
+    "https://5eed24da4cbc340016330f0d.mockapi.io/api/newsletter",
+    values
   );
   return request;
 };

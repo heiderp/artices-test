@@ -10,19 +10,20 @@
   position: absolute;
   top: 40px;
   left: 10%;
-  font-size: 34px;
+  font-size: 40px;
   font-family: "Caveat", cursive;
   color: #24272a;
 }
 .heroTitle {
   color: #24272a;
+  width: 420px;
   position: absolute;
-  top: 45%;
+  top: 33%;
   left: 10%;
   margin: 0;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 65px;
   line-height: 100px;
   font-family: "Caveat", cursive;
   z-index: 10;
@@ -35,6 +36,6 @@
   background-size: cover;
   background-position: center;
   height: 150px;
-  width: auto;
+  width: 1200px;
   z-index: 5;
 }

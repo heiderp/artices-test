@@ -7,8 +7,12 @@ const Filtros = ({ handleArticleShow }) => {
   return (
     <div className={styles.filter}>
       <ul className={styles.list}>
-        {list.map((el) => (
-          <li onClick={() => handleSelect(el)} className={styles.element}>
+        {list.map((el, i) => (
+          <li
+            key={i}
+            onClick={() => handleSelect(el)}
+            className={styles.element}
+          >
             {el}
           </li>
         ))}

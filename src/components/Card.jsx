@@ -9,7 +9,7 @@ const Card = ({ title, description, url }) => {
         <h3 className={styles.cardTitle}>{title}</h3>
         <p className={styles.cardDes}>{description}</p>
         <div className={styles.extra}>
-          <button>Ver mas</button>
+          <button className={styles.more}>Ver mas</button>
         </div>
       </div>
     </div>
