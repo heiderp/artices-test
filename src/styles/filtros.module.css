@@ -9,13 +9,13 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 .element {
   color: #000;
   font-weight: 700;
   font-size: 16px;
   font-family: "Open Sans";
+  margin-top: 15px;
 }
 .element:hover {
   color: #d8ad3d;
