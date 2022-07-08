@@ -1,7 +1,7 @@
 import styles from "../styles/button.module.css";
-const Button = ({ children, disabled = false }) => {
+const Button = ({ type, children, disabled = false }) => {
   return (
-    <button disabled={disabled} className={styles.btn}>
+    <button type={type} disabled={disabled} className={styles.btn}>
       {children}
     </button>
   );

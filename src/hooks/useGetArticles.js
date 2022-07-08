@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { getArticles } from "../services/Articles";
 const useGetArticles = (toshow) => {
   const [articles, setArticles] = useState([]);

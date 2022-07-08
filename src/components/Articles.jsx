@@ -10,6 +10,7 @@ const Articles = () => {
   return (
     <section className={styles.container}>
       <h2 className={styles.subtitle}>Nuestros Articulos</h2>
+      <div className={styles.brush}></div>
       <div className={styles.articles}>
         <Filtros handleArticleShow={handleArticleShow}></Filtros>
         <Gallery articles={articles} loading={loading}></Gallery>

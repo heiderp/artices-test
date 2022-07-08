@@ -39,3 +39,23 @@
   width: 1200px;
   z-index: 5;
 }
+@media screen and (max-width: 900px) {
+  .brush {
+    width: 735px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 30px;
+  }
+  .heroTitle {
+    width: 200px;
+    top: 40%;
+    line-height: 50px;
+    font-size: 32px;
+  }
+  .brush {
+    width: 730px;
+    right: 20%;
+  }
+}

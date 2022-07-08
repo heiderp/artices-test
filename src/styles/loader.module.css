@@ -1,10 +1,13 @@
 .container {
   width: 100%;
   height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .loader {
   --height-of-loader: 4px;
-  --loader-color: #0071e2;
+  --loader-color: #d8ad3d;
   width: 60%;
   height: var(--height-of-loader);
   border-radius: 30px;

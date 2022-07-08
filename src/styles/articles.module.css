@@ -3,19 +3,54 @@
   padding: 10% 15%;
   background-color: #f9f9f9;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  gap: 40px;
+  /*gap: 70px;*/
 }
 .subtitle {
   text-align: center;
   font-family: "Caveat", cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 38px;
 }
 .articles {
+  width: 100%;
   display: grid;
   grid-template-columns: 20% 1fr;
   gap: 30px;
+  margin-top: 5%;
+}
+.brush {
+  height: 50px;
+  width: 500px;
+  position: relative;
+  top: 1vh;
+  right: 0%;
+  background-image: url("../assets/BRUSH.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: 5;
+}
+@media screen and (max-width: 900px) {
+  .articles {
+    grid-template-columns: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10%;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .articles {
+    grid-template-columns: none;
+  }
+  .brush {
+    width: 200px;
+    top: -1vh;
+  }
 }

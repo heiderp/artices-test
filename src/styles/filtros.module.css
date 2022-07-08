@@ -20,3 +20,23 @@
 .element:hover {
   color: #d8ad3d;
 }
+
+@media screen and (max-width: 900px) {
+  .filter {
+    height: 150px;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media screen and (max-width: 600px) {
+  .filter {
+    height: 150px;
+    place-content: center;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
