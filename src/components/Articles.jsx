@@ -9,8 +9,8 @@ const Articles = () => {
   const { loading, articles } = useGetArticles(articlesShow);
   return (
     <section className={styles.container}>
-      <h2 className={styles.subtitle}>Nuestros Articulos</h2>
-      <div className={styles.brush}></div>
+      <h2 className={styles.subtitle}>Nuestros Artículos</h2>
+      <figure className={styles.brush} />
       <div className={styles.articles}>
         <Filtros handleArticleShow={handleArticleShow}></Filtros>
         <Gallery articles={articles} loading={loading}></Gallery>

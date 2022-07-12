@@ -39,22 +39,25 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
 .upperfield {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 1000;
 }
 .field {
   padding: 15px;
+  margin-top: 8px;
   outline: none;
   width: 100%;
 }
 .field:focus {
   outline: solid #d8ad3d;
 }
-.field:required {
-  outline: solid #b72c2c;
+.fieldError {
+  outline: solid #b72c2c !important;
+}
+.msgError {
+  margin-top: 8px;
 }
 .contentButton {
   width: 200%;

@@ -5,7 +5,9 @@
   padding: 10px 40px;
   border-radius: 50px;
   background: #d8ad3d;
+  font-size: 14px;
   color: #fff;
+  text-transform: uppercase;
   transition: background 0.5s;
 }
 .btn:hover {
